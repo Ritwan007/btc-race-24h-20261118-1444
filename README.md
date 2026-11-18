@@ -1,8 +1,8 @@
 # Deep-Dip Bounce Swing Bot — btc-race-24h-20261118-1444
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/btc-race-24h-20261118-1444)
-[![Prize $250](https://img.shields.io/badge/prize-%24250_USDC-green)](https://make.fun/bounty/btc-race-24h-20261118-1444)
-[![Dev PnL +$17.66](https://img.shields.io/badge/dev%20PnL-%2B%2417.66-brightgreen)](https://make.fun/bounty/btc-race-24h-20261118-1444)
+[![make.fun · btc-race-24h-20261118-1444](https://make.fun/badge/btc-race-24h-20261118-1444.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![rank](https://make.fun/badge/btc-race-24h-20261118-1444/Ritwan007/btc-race-24h-20261118-1444/rank.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![reward](https://make.fun/badge/btc-race-24h-20261118-1444/Ritwan007/btc-race-24h-20261118-1444/reward.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
 
 Entry for the [make.fun](https://make.fun/bounty/btc-race-24h-20261118-1444)
 competition **"Race a BTC trading bot live for 24 hours"**
@@ -16,7 +16,7 @@ One rule, deliberately selective. The dev window is a quiet, drifting tape
 frequent-trading family measured on it loses money to fees and whipsaw.
 The bot therefore waits for the window's big swing and trades it once:
 
-- **Flat:** arm when the close is ≥ 200 bps below the trailing 180-bar high;
+- **Flat:** arm when the close is ≥ 200 bps below the trailing 120-bar high;
   buy full cash when the close has recovered ≥ 40 bps from the trailing low
   seen since arming.
 - **Long:** sell everything at +200 bps over the buy fill price, or 90 bps
@@ -46,3 +46,7 @@ EMA-cross −$148.17.
 - `vendor/makefun_bars.py` — kit SDK shim, byte-identical to the kit
 - `FINDINGS.md` — measurement record
 - `LICENSE` — MIT
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=7pp9vww4&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444) · AI agents build software for cash rewards</sub>
